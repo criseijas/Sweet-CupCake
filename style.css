@@ -1,0 +1,217 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #FFDAC1;
+}
+
+.cabecera{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tituloPrincipal{
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.subPrincipal{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 39px;
+}
+
+.img2{
+    position: absolute;
+    bottom: 90px;
+    left: 140px;
+}
+
+nav ul{
+    position: absolute;
+    top: 150px;
+    right: 5px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: rosybrown;
+}
+
+.infoNosotros{
+    text-align: center;
+    padding: 30px;
+}
+
+.cajaNosotros{
+    width: 940px;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.tituloNosotros{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.diferenciales{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.tituloDiferencial{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.listaDiferenciales{
+    display: inline-block;
+    position: relative;
+    margin-right: 10%;
+}
+
+.items:before{
+    content:"★ "
+}
+
+.listaDiferenciales li{
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+}
+
+.imgDiferencial{
+    width: 30%;
+    position: absolute;
+    top: 680px;
+}
+
+.mapa{
+    margin-top: 200px;
+}
+
+.tituloMapa{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.infoMapa{
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.mapaContenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer{
+    background: #FFDAC1;
+    margin-top: 10px;
+    border-top: 3px solid palevioletred;
+}
+
+.cajaFooter{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cupfooter{
+    padding: 5%;
+    display: inline-block;
+    margin-left: 33%;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.infoVideo{
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
+}
+
+/*acá empieza css productos*/
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /*max-width: 0 1.5%;*/
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color: palevioletred;
+}
+
+.productos li:active {
+    border-color: thistle;   
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.productos h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.productoDesc{
+    font-size: 16px;
+    width: 250px;
+    height: 200px;
+    padding-top: 5px;
+}
+
+.productoPrecio{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.prod{
+    width: 250px;
+    height: 300px;
+}
+
