@@ -29,6 +29,46 @@
         </div>
     </header>
 
+    <main>
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input class="input-padron" type="text" id="nombreapellido" required>
+
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input class="input-padron" type="email" id="correoelectronico" required placeholder="email@dominio.com">
+
+            <label form="telefono">Telefono</label>
+            <input class="input-padron" type="tel" id="telefono" required placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea class="input-padron" cols="70" rows="10" id="mensaje" required></textarea>
+
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Le gustaría recibir novedades de Sweet?</label>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+        </form>
+    </main>
+
     <footer>
         <div class="cajaFooter">
             <img class="cupfooter" src="imagenes/cupfooter.png">
